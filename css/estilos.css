@@ -6,6 +6,15 @@
   display: block;
 }
 
+/* Estilos para selector de idiomas con banderas */
+.lang-selector img {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
