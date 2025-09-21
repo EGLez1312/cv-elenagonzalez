@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #007ACC;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #007ACC;
+  margin-bottom: 5px;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  color: #555;
+  font-weight: normal;
+}
+
+address p {
+  font-style: normal;
+  margin: 5px 0;
+}
+
+address a {
+  color: #007ACC;
+  text-decoration: none;
+}
+
+address a:hover {
+  text-decoration: underline;
+}
+
+main section {
+  margin-bottom: 30px;
+}
+
+main section h2 {
+  border-bottom: 2px solid #007ACC;
+  color: #007ACC;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+}
+
+h3 {
+  color: #444;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+h3 + ul, h2 + ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+ul {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 7px;
+}
+
+article p.empresa-fecha {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 9px;
+  text-align: left;
+}
+
+table th {
+  background-color: #007ACC;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+    max-width: 100%;
+  }
+  header h1 {
+    font-size: 1.8rem;
+  }
+  main section h2 {
+    font-size: 1.3rem;
+  }
+}
