@@ -1,3 +1,11 @@
+.lang-section {
+  display: none;
+}
+
+.lang-section.active {
+  display: block;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
