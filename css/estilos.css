@@ -9,8 +9,8 @@
 /* Estilos para selector de idiomas con banderas */
 .lang-selector img {
   width: 30px;
-  height: auto;
-  vertical-align: middle;
+  height: 20px;
+  object-fit: cover;
   margin: 0 5px;
   cursor: pointer;
 }
