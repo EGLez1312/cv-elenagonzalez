@@ -5,9 +5,17 @@
   <title>Currículum Vitae de Elena González</title>
   <meta name="description" content="Currículum de profesional en informática, desarrollo y ciberseguridad">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+
+  <div style="text-align:center; margin-bottom: 20px;">
+    <button onclick="setLanguage('es')">ES</button>
+    <button onclick="setLanguage('en')">EN</button>
+  </div>
+
+  <div id="es" class="lang-section active">
+     <!-- Contenido en español -->
   <header>
     <h1>Elena González Plaza</h1>
     <h2>Técnico superior en Desarrollo de Aplicaciones Multiplataforma</h2>
@@ -105,11 +113,118 @@
         <li><strong>Desarrollo de un ChatBot para páginas web:</strong> Desarrollo de un chatbot para atención al cliente utilizando tecnologías de procesamiento de lenguaje natural y entrenamiento de IA.</li>
       </ul>
     </section>
-  </main>
+    </div>
 
   <footer>
     <p>Referencias disponibles a petición | Última actualización: diciembre/2025</p>
   </footer>
-</body>
 
+  <div id="en" class="lang-section">
+<!-- Contenido en inglés -->
+  <header>
+    <h1>Elena González Plaza</h1>
+    <h2>Higher Technician in Multiplatform Application Development</h2>
+    <address>
+      <p>Salamanca, Spain</p>
+      <p>Email: <a href="mailto:eglezplz@gmail.com">eglezplz@gmail.com</a></p>
+      <p>Phone: +34 616 512 281</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/elenaglezplz" target="_blank" rel="noopener noreferrer">linkedin.com/in/elenaglezplz</a></p>
+      <p>GitHub: <a href="https://github.com/EGLez1312" target="_blank" rel="noopener noreferrer">github.com/EGLez1312</a></p>
+    </address>
+  </header>
+
+  <main>
+    <section id="profile">
+      <h2>Professional Profile</h2>
+      <p>Recently graduated with extensive experience in managing web platforms, servers, and databases, with ongoing training in cybersecurity and AI. Specialized in Java, Python, Android, and SQL, able to integrate into multidisciplinary teams and manage secure and scalable solutions.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Professional Experience</h2>
+      <article>
+        <h3>Web and Server Administrator – Oxalis Trading SLU (Escape City Box)</h3>
+        <p class="company-date">[February/2021 – October/2025]</p>
+        <ul>
+          <li>Comprehensive management and administration of the corporate website in WordPress, ensuring optimal performance and continuous updates.</li>
+          <li>Administration of the server and MySQL database, troubleshooting technical issues, backups, and security policies, hosted on Siteground.</li>
+          <li>Collaboration with design, marketing, and sales teams to implement technical improvements and web integrations.</li>
+          <li>Implementation of best security practices and data protection in the digital ecosystem.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Higher Technician in Multiplatform Application Development (DAM)</th>
+          <th>I.E.S Venancio Blanco (Salamanca)</th>
+          <th>2024-2026</th>
+        </tr>
+      </table>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications and Relevant Courses</h2>
+      <ul>
+        <li>Cybersecurity Specialist – Proyecto TuTor (December 2025)</li>
+        <li>Generative Artificial Intelligence for Application Development – Proyecto MAYA-USAL (June 2025)</li>
+        <li>Python Fundamentals – Cisco Networking Academy (May 2025)</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Python, Java, Bash, PowerShell</li>
+        <li>Advanced Linux and Windows Administration</li>
+        <li>Network Management, DHCP, Firewalls</li>
+        <li>Android Development with Android Studio</li>
+        <li>Web Development with HTML, CSS, JavaScript, WordPress</li>
+        <li>Version Control with Git and GitHub</li>
+        <li>Database Management: MySQL, SQL Server</li>
+      </ul>
+      <h3>Artificial Intelligence Tools</h3>
+      <ul>
+        <li>Perplexity AI</li>
+        <li>ChatGPT</li>
+        <li>GitHub Copilot</li>
+      </ul>
+      <h2>Soft Skills</h2>
+      <ul>
+        <li>Effective communication</li>
+        <li>Teamwork and collaboration</li>
+        <li>Adaptability and problem-solving</li>
+      </ul>
+    </section>
+
+    <section id="languages">
+      <h2>Languages</h2>
+      <ul>
+        <li>Spanish: Native</li>
+        <li>English: C1 Advanced - Cambridge English: Advanced (CAE)</li>
+        <li>French: B2 Upper-Intermediate</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Highlighted Projects</h2>
+      <ul>
+        <!-- <li><strong>Backup Manager in Bash:</strong> Cross-platform script to automate incremental backups in Linux and Windows.</li>
+        <li><strong>Java Academic Management Application:</strong> Maven project with database integration and graphical interface.</li>
+        <li><strong>Home Network Audit:</strong> Design of a secure network and vulnerability scanning using Kali Linux.</li> -->
+        <li><strong>Web ChatBot Development:</strong> Chatbot for customer service using natural language processing and AI training.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>References available upon request | Last update: December 2025</p>
+  </footer>
+  </div>
+
+<!-- Enlace al archivo JavaScript para el cambio de idioma -->
+<script src="js/script.js"></script>
+
+</body>
 </html>
